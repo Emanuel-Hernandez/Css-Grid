@@ -1,0 +1,26 @@
+.grid{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:1em;
+grid-template-rows:minmax(20px, auto);
+}
+.nested-grid{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+grid-auto-rows:100px
+gap:1em;
+}
+.nested-grid > div{
+border:1px solid #990000;
+background:#CCFF00;
+padding:1em;
+}
+.grid > div{
+background:#00FFFF;
+padding:1em;
+}
+.grid > div:hover{
+border:1px solid #000000;
+}
+
+

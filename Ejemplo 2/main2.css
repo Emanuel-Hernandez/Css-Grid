@@ -1,0 +1,33 @@
+.grid{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:1em;
+grid-template-rows:minmax(100px, auto);
+align-items:strems;
+}
+.Elemento1{
+align-self:start;
+}
+.Elemento2{
+align-self:center;
+}
+.Elemento3{
+align-self:end;
+}
+.Elemento4{
+justify-self:start;
+}
+.Elemento5{
+justify-self:cwenter;
+}
+.Elemento6{
+justify-self:end;
+}
+
+.grid > div{
+background:#00FFFF;
+padding:1em;
+}
+.grid > div:hover{
+border:1px solid #000000;
+}
